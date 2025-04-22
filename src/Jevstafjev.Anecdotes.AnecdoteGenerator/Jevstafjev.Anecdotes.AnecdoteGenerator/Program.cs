@@ -1,6 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using Jevstafjev.Anecdotes.AnecdoteGenerator.Definitions.Base;
 
-app.MapGet("/", () => "Hello World!");
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDefinitions(builder, typeof(Program));
+
+var app = builder.Build();
+app.UseDefinitions();
 
 app.Run();
