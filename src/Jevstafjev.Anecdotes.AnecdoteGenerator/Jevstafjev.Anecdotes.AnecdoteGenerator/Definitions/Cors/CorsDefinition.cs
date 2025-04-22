@@ -1,5 +1,4 @@
 ﻿using Jevstafjev.Anecdotes.AnecdoteGenerator.Definitions.Base;
-using Jevstafjev.Anecdotes.Notification;
 
 namespace Jevstafjev.Anecdotes.AnecdoteGenerator.Definitions.Cors;
 

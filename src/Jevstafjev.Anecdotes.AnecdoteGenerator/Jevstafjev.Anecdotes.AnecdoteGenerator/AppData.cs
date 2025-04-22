@@ -1,4 +1,4 @@
-﻿namespace Jevstafjev.Anecdotes.Notification;
+﻿namespace Jevstafjev.Anecdotes.AnecdoteGenerator;
 
 public class AppData
 {
